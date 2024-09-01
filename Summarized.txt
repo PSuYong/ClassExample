@@ -1,0 +1,26 @@
+1st, Capsualization
+
+Getter and Setter in Java have used from 90s to now.
+Why are they use? Because of Capsualization!
+Think about If you use a function not using getter and setter, then parameter is not secured!
+Maybe other can be modified 'num' as arbitrarily!
+Therefore, 'Num' should not be changeble but only constant variable. 
+
+However, we can change 'n' as arbitrarily.
+In Setter and Getter function, we can write it.
+
+int InitNum(int num){
+    int num;
+} 
+
+
+int Setter(int n)
+{	num = n
+	retrun 0;
+} 
+
+int Getter(){
+
+	
+	return n;
+}
